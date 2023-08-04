@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+/*
+? Estilos:
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body {  
+    font-family: font-family: 'Poppins', sans-serif;
+    background-color: #0c1333;
+    color: #FFFFFF;
+}
+
+img {
+    max-width: 100%; /* Para tener imagines responsivas */
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Menu */
+
+header {
+    padding-left: 5%;
+}
+
+.menu {
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.menu a:link {
+    color: rgb(0, 99, 145);
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: rgb(0, 99, 145);
+}
+
+.menu a:hover {
+    color: rgb(247, 82, 131);
+}
+
+.menu li {
+    display: inline;
+    margin-right: 50px;
+}
+
+/* Nombre */
+
+.text-container {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+
+.profile-image {
+    width: 300px; /* Ajusta el tamaño de la imagen */
+    margin-right: 20px; /* Ajusta el margen derecho */
+}
+
+.text-content {
+    text-align: right;
+    flex: 1; /* Permite que el contenido de texto ocupe todo el espacio restante */
+}
+
+#iconos img {
+    width: 40px;
+}
+
+span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+    color: #49BADA;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Portafolio */
+
+#proyecto {
+    padding: 5%;
+    text-align: center;
+}
+
+.proyecto-content {
+    margin-top: 70px;
+}
+
+.proyecto-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.proyecto-txt {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.proyecto-txt h3 {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.proyecto-txt p {
+    color: #C5C5C5;
+    margin-bottom: 25px;
+}
+
+.proyecto-img {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.proyecto-img img {
+    width: 700px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(
+        90deg,
+        rgba(78,159,215,1) 0%,
+        rgba(74,42,193,1) 100%
+    );
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* LENGUAJES DE PROGRAMACIÓN */
+
+#lenguajes {
+    text-align: center;
+}
+
+.lenguajes-content {
+    margin-top: 70px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+.lenguajes-content img {
+    width: 70px;
+    margin: 0 10px; /* Agrega un margen horizontal de 10px entre las imágenes */
+}
+
+
+/* CONTACTO */
+
+#contacto {
+    padding: 5%;
+}
